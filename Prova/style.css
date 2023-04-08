@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-image: linear-gradient(to right, rgb(234, 135, 238) , rgb(24, 24, 88));;
+}
+
+form {
+    width: 600px ;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, rgba(235, 221, 36,0.7) , rgba(255, 161, 174, 0.9)); ;
+}
+
+
+label {
+    display: block;
+    margin: 3px;
+    font-size: 18px;
+    
+}
+
+.form {
+    width: 600px ;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, rgba(235, 221, 36,0.7) , rgba(255, 161, 174, 0.9)); ;
+    text-align: center;
+}
+
+.aceito{
+    color: green;
+    font-size: 22px;
+   
+}
+
+.negado{
+    color: red;
+    font-size: 22px;
+}
+
+.preload{
+    position: fixed;
+    z-index:99999;
+    top:0; left:0;
+    width:100%; height:100%;
+    opacity:1;
+    background-color:#000;
+    background-image:url('https://pa1.narvii.com/6552/930b23df8b9e4a1228550eb3cdfcc8f4b22ef41e_hq.gif');
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}

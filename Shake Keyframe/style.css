@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        45deg, #201b2c, black
+    );
+    background-size: 400%;
+    animation: gradient 5s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+input {
+    display: none;
+}
+
+input:invalid {
+    animation: shake.3s;
+}
+
+@keyframes shake {
+    25% { transform: translateX(4px) }
+    50% { transform: translateX(-4px) }
+    75% { transform: translateX(4px) }
+}
+
+.preload{
+    position: fixed;
+    z-index:99999;
+    top:0; left:0;
+    width:100%; height:100%;
+    opacity:1;
+    background-color:#000;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    perspective: 800px;
+
+}
+
+.loader .loader-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.loader .loader-item:nth-child(1) {
+    border-bottom: 6px solid #f13a8f;
+    transform: rotateX(35deg) rotateY(-45deg);
+    animation: rotate-one 1s linear infinite;
+}
+
+.loader .loader-item:nth-child(2) {
+    border-right: 6px solid #4bc8eb;
+    transform: rotateX(50deg) rotateY(10deg);
+    animation: rotate-two 1s linear infinite;
+}
+
+.loader .loader-item:nth-child(3) {
+    border-top: 6px solid #36f372;
+    transform: rotateX(35deg) rotateY(55deg);
+    animation: rotate-three 1s linear infinite;
+}
+
+@keyframes rotate-one {
+    to {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-two {
+    to {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-three {
+    to {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
