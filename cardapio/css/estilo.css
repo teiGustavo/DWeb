@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto-Sans', sans-serif;
+    background: #201b2c;
+}
+
+.item{
+    background: #2f2841;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item h4 {
+    color: #f0ffffde;
+}
+
+.item p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #f0ffffde;
+}
+
+.item a{
+    color: #00ff88;
+}
+
+.painel{
+    margin: 15px;
+    background: #2f2841;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.painel h2 {
+   color: #f0ffffde;
+}
+
+.painel p{
+   color: #f0ffffde;
+}
+
+.painel2{
+    margin: 15px;
+    background: #2f2841;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel2-esquerdo{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel2-esquerdo p{
+    color: #f0ffffde;
+}
+
+.curtir img{
+    width: 32px;
+    margin-top: 10px;
+ }
+
+.painel2-direito{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel2-direito p{
+    margin-bottom: 5px;
+    color: #f0ffffde;
+}
+
+.painel2-direito a{
+    color: #00ff88;
+}
+
+.comentario{
+   color: #f0ffffde;
+}
+
+.label_comentario{
+    margin-top: 10px;
+    padding: 25px;
+    color: #f0ffffde;
+}
+
+.btn{
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.curtir{
+    padding: 3px;
+    border-radius: 2px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.divcurtir{
+    margin-top: 30px;
+    padding-left: 800px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+.tabela{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+
+}
+
+.tabela2{
+    margin-top: 10vw;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 25px;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.btn-login {
+    width: 10%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}

@@ -1,0 +1,13 @@
+<div id="preload" class="preload"></div>
+
+.preload{
+    position: fixed;
+    z-index:99999;
+    top:0; left:0;
+    width:100%; height:100%;
+    opacity:1;
+    background-color:#000;
+    background-image:url('http://pa1.narvii.com/6618/579af2d8df43ca612e38b09a103bcde82b7d92aa_00.gif');
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
